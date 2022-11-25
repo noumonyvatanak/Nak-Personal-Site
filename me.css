@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css2?family=Monoton&display=swap);
+
+body{
+    background-color: #111111;
+}
+
+div{
+    margin-top: 0px;
+    padding: 40px;
+    font-size: 95px;
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 80px red, 0 0 30px firebrick, 0 0 6px darkred;
+    color: red;
+}
+
+div p{
+    margin: 5px;
+}
+
+#error:hover{
+    text-shadow: 0 0 200px #ffffff, 0 0 80px #008000, 0 0 6px #0000ff;
+}
+
+#code:hover{
+    text-shadow: 0 0 100px red, 0 0 40px firebrick, 0 0 8px darkred; 
+}
+
+#error{
+    color: #fff;
+    text-shadow: 0 0 80px #ffffff, 0 0 30px #008000, 0 0 6px #0000ff;
+}
+
+#error span{
+    animation: upper 11s linear infinite;
+}
+
+#code span:nth-of-type(2){
+    animation: lower 10s linear infinite;
+}
+
+#code span:nth-last-of-type(1){
+    text-shadow: none;
+    opacity: .4;
+}
